@@ -12,7 +12,6 @@ function Navbar() {
 			</NavLink>
 			<nav className='navbar'>
 				<a href='#'><NavLink to="/">Home</NavLink></a>
-				<a href='#'><NavLink to="/product">Product Detail</NavLink></a>
 				<a href='#'><NavLink to="/about">About</NavLink></a>
 			</nav>
 		</header>
