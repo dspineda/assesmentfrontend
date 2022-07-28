@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 import Navbar from "../components/Navbar";
 import { useState, useEffect } from 'react';
 import { getProduct } from "../services/products";
+import '../styles/product.css';
 
 
 const Productpage = () => {
@@ -20,13 +21,19 @@ const Productpage = () => {
 	return (		
 		<div>
 			<Navbar />
-				<div className="product">
-					<img src={product.image}></img>
-					<h2>{product.title}</h2>
-					<p>{product.description}</p>
-					<p>{product.price}</p>
-					<p>{product.category}</p>
-				</div>
+				<section className="product">
+
+					<div className='product__container'>
+							<img className="product__container__img"src={product.image}></img>
+					</div>
+
+					<div className='product__containerb'>	
+						<p className="product__container__category">category: {product.category}</p>
+						<h2 className="product__container__title">{product.title}</h2>
+						<p className="product__container__description"><strong>Description: </strong>{product.description}</p>
+						<p className="product__container__price">Price: ${product.price}</p><hr></hr>	
+					</div>	
+				</section>
 		</div>
 	);
 };
