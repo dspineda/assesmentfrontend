@@ -7,7 +7,7 @@ function Navbar() {
 		<header>
 			<NavLink to="/">
 			<a href='#' className='logo'>
-				<span>deiv</span>Compras
+				<span>Deiv</span>Compras
 			</a>
 			</NavLink>
 			<nav className='navbar'>

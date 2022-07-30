@@ -9,6 +9,7 @@ import '../styles/product.css';
 const Productpage = () => {
 	const { id } = useParams();
 	const [product, setProduct] = useState ({});
+	
 	useEffect(()=> {
 		const fetchProduct = async() => {
 			const data = await getProduct(id);
