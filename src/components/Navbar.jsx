@@ -1,18 +1,20 @@
-import '../styles/navbar.css';
-import {NavLink} from 'react-router-dom';
-
+import { NavLink } from 'react-router-dom';
 
 function Navbar() {
 	return (
 		<header>
-			<NavLink to="/">
-			<a href='#' className='logo'>
-				<span>Deiv</span>Compras
-			</a>
+			<NavLink to='/'>
+				<a href='#' className='logo'>
+					<span>Deiv</span>Compras
+				</a>
 			</NavLink>
 			<nav className='navbar'>
-				<a href='#'><NavLink to="/">Home</NavLink></a>
-				<a href='#'><NavLink to="/about">About</NavLink></a>
+				<a href='#'>
+					<NavLink to='/'>Home</NavLink>
+				</a>
+				<a href='#'>
+					<NavLink to='/about'>About</NavLink>
+				</a>
 			</nav>
 		</header>
 	);

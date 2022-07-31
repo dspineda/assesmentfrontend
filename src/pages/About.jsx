@@ -1,5 +1,6 @@
+import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
-import '../styles/about.css';
+
 
 const AboutPage = () => {
 	return (
@@ -41,6 +42,7 @@ const AboutPage = () => {
 					</div>
 				</div>
 			</section>
+			<Footer />
 		</div>
 	);
 };

@@ -15,5 +15,6 @@ export async function getProduct(id) {
   catch (error) {
     return error;
   }
+
 }
 

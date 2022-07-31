@@ -1,8 +1,7 @@
 const NotFound = () => {
 	return (
-		<div>
-			<h1>404</h1>
-			<p>Page not found</p>
+		<div className='pagenoFound'>
+			<img src='../404.png' alt='not found' />
 		</div>
 	);
 };

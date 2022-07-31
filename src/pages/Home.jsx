@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import ProductCard from '../components/ProductCard';
 import { getProducts } from '../services/products';
@@ -27,6 +28,7 @@ const Homepage = () => {
 					))}
 				</ul>
 			</div>
+			<Footer />
 		</div>
 	);
 };

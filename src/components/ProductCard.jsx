@@ -9,11 +9,11 @@ const ProductCard = props => {
 	const navigate = useNavigate();
 	const [intro, setIntro] = useState(true);
 
-	const hadleIntro = () => {
+	function hadleIntro() {
 		if (intro) {
 			navigate('/product/' + product.id, { replace: true });
 		}
-	};
+	}
 
 	return (
 		<article className='productCard'>
@@ -26,9 +26,7 @@ const ProductCard = props => {
 				<h3 className='productCard__detail__title'>{product.title}</h3>
 			</div>
 			<div className='productCard__detail__buttom'>
-				<button onClick={hadleIntro}>
-					Details
-				</button>
+				<button onClick={hadleIntro}>Details</button>
 			</div>
 		</article>
 	);
