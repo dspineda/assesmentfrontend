@@ -5,7 +5,6 @@ import Footer from '../components/Footer';
 import { useState, useEffect } from 'react';
 import { getProduct } from '../services/products';
 
-
 const Productpage = () => {
 	const { id } = useParams();
 	const [product, setProduct] = useState({});

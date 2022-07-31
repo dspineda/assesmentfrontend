@@ -10,7 +10,7 @@
 .footer{
  
     background: white;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    box-shadow: 5px 10px 8px 10px #888888;
     height: auto;
 
 }

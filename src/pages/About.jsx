@@ -1,7 +1,6 @@
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 
-
 const AboutPage = () => {
 	return (
 		<div>
@@ -24,9 +23,17 @@ const AboutPage = () => {
 
 					<h3 className='profile__info__listTitle'>Program learning:</h3>
 					<div className='profile__info__list'>
-						<ul>- casa de estudio: Universidad de los Andes</ul>
-						<ul>- carrera: Ingeniería en Sistemas Computacionales</ul>
-						<ul>- semestre: sexto</ul>
+						<ul>
+							- I learned how to make a page in react. Two months ago I did not
+							even know what html, css and react were.
+						</ul>
+						<ul>
+							- I learned to use the useState, useEfect and props of objects.
+						</ul>
+						<ul>
+							- I learned to use git and github for version control, knowing
+							branchs and pull requests
+						</ul>
 					</div>
 					<div className='profile__info__contact'>
 						<h3>Contact:</h3>
