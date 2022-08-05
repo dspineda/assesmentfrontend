@@ -22,9 +22,9 @@ const TimerProduct = ({ setIntro }) => {
 	}, [seconds, minutes]);
 	return (
 		<div>
-			<h3>
-				Termina en:{minutes}:{seconds}
-			</h3>
+			<h4>
+				Termina en: {minutes}:{seconds}
+			</h4>
 		</div>
 	);
 };
