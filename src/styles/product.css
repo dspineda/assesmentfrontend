@@ -45,7 +45,24 @@
   font-size: 13px;
   text-align: center;
   text-decoration: none;
+  color: var(--verde);
+  padding: 0 7px;
+  margin:  0 15px;  
 }
+
+.productCard h4 {
+  font-size: 13px;
+  color: var(--verde);
+  padding: 2px 7px;
+  margin:   15px; 
+}
+
+.productCard__detail__buttom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} 
+
 
 .productCard__detail__buttom button {
   background-color: var(--limon);
@@ -64,6 +81,23 @@
   background-color: var(--verde);
   color: var(--limon);
 }
+
+
+.productCard__detail__buttom__unstyle button {
+  background-color: #bab4b4;
+  border: none;
+  color: #0c443a;
+  padding: 2px 7px;
+  font-size: 14px;
+  border-radius: 5px;
+  margin:   15px; 
+  font-weight: normal;
+  
+}
+
+
+
+
 
 li{
   list-style:none;
