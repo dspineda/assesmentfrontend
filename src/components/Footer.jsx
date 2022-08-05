@@ -1,5 +1,5 @@
 const Footer = () => {
-	return (
+  return (
 		<footer className='footer'>
 			<div className='footer__social'>
 				<h3 className='foooter__social__followme'>SIGUENOS</h3>
