@@ -13,33 +13,29 @@ const AboutPage = () => {
 					<h1 className='profile__info__name'>David S. Pineda</h1>
 					<p className='profile__info__description'>
 						One of my greatest passions is to resolve a problem and to achieve
-						understanding it by a logic and simple way. I really enjoy to feel
-						helping someone to overcome any problem and to achieve its
-						objectives, always avoiding to become into another problem. I like
-						to learn new things. I understand the importance of active
-						listening, collaborative process and patience. I really like to take
-						advantage of every time, to beginning the work early.
+						understanding it by a logic and simple way. I really enjoy to feel helping
+						someone to overcome any problem and to achieve its objectives, always
+						avoiding to become into another problem. I like to learn new things. I
+						understand the importance of active listening, collaborative process and
+						patience. I really like to take advantage of every time, to beginning the
+						work early.
 					</p>
 
 					<h3 className='profile__info__listTitle'>Program learning:</h3>
 					<div className='profile__info__list'>
 						<ul>
-							- I learned how to make a page in react. Two months ago I did not
-							even know what html, css and react were.
+							- I learned how to make a page in react. Two months ago I did not even
+							know what html, css and react were.
 						</ul>
+						<ul>- I learned to use the useState, useEfect and props of objects.</ul>
 						<ul>
-							- I learned to use the useState, useEfect and props of objects.
-						</ul>
-						<ul>
-							- I learned to use git and github for version control, knowing
-							branchs and pull requests
+							- I learned to use git and github for version control, knowing branchs
+							and pull requests
 						</ul>
 					</div>
 					<div className='profile__info__contact'>
 						<h3>Contact:</h3>
-						<h4 className='profile__info__contact__correo'>
-							dspinedao@gmail.com
-						</h4>
+						<h4 className='profile__info__contact__correo'>dspinedao@gmail.com</h4>
 						<a
 							className='profile__info__contact__git'
 							href='https://github.com/dspineda'
